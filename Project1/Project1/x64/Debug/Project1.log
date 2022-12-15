@@ -1,0 +1,30 @@
+﻿  main.cpp
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(52,95): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(60,105): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(133,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(133,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(133,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(133,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(134,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(134,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(134,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(134,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(135,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(135,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(135,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(135,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(176,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(176,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(176,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(176,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(177,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(177,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(177,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(177,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(178,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(178,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(178,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(178,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(254,11): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\hikar\Desktop\Project1\Project1\main.cpp(253,10): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  Project1.vcxproj -> C:\Users\hikar\Desktop\Project1\x64\Debug\Project1.exe
