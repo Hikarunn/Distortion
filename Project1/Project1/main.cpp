@@ -49,7 +49,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	circleAngle_ = 0;
 
 	// メインループ(何かキーが押されたらループを抜ける)
-	while (ProcessMessage() == 0)
+	while (ProcessMessage() == 0&&!CheckHitKey(KEY_INPUT_ESCAPE))
 	{
 		// 画像を移動
 		graphX_ += graphAddX_;
@@ -85,8 +85,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		// 画面を歪ませて描画
 		dist.DrawCircleScreen(
 			circleX_, 240,	// 中心座標
-			80.0f + sin(circleAngle_ * PHI_F / 180.0f) * 15.0f,	// 内側の円のサイズ
-			200.0f + sin(circleAngle_ * 2 * PHI_F / 180.0f) * 50.0f,	// 外側の円のサイズ
+			80.0 + sin(circleAngle_ * PHI_F / 180.0f) * 15.0f,	// 内側の円のサイズ
+			200.0 + sin(circleAngle_ * 2 * PHI_F / 180.0f) * 50.0f,	// 外側の円のサイズ
 			48.0f,	// 内側に引き込まれるドット数
 			screenHandle_);
 

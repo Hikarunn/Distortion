@@ -1,4 +1,4 @@
 ﻿  main.cpp
-C:\新しいフォルダー\Distortion\Project1\Project1\main.cpp(86,11): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\新しいフォルダー\Distortion\Project1\Project1\main.cpp(85,10): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\main.cpp(89,10): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\main.cpp(88,9): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
   Project1.vcxproj -> C:\新しいフォルダー\Distortion\Project1\x64\Debug\Project1.exe
