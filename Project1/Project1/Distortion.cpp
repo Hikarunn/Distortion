@@ -68,24 +68,24 @@ void Distortion::DrawCircleScreen(int CenterX, int CenterY, float InRadius, floa
 	// 歪んだドーナツの描画
 	DrawPrimitiveIndexed2D(Vertex, sizeof(Vertex) / sizeof(VERTEX2D), Index, sizeof(Index) / sizeof(WORD), DX_PRIMTYPE_TRIANGLELIST, ScreenHandle, FALSE);
 
-	//for (i = 0; i < sizeof(Index) / sizeof(WORD); i += 3) {
-	//	DrawLine(Vertex[Index[i + 0]].pos.x, Vertex[Index[i + 0]].pos.y, Vertex[Index[i + 1]].pos.x, Vertex[Index[i + 1]].pos.y, GetColor(255, 0, 0));
-	//	DrawLine(Vertex[Index[i + 1]].pos.x, Vertex[Index[i + 1]].pos.y, Vertex[Index[i + 2]].pos.x, Vertex[Index[i + 2]].pos.y, GetColor(255, 0, 0));
-	//	DrawLine(Vertex[Index[i + 2]].pos.x, Vertex[Index[i + 2]].pos.y, Vertex[Index[i + 0]].pos.x, Vertex[Index[i + 0]].pos.y, GetColor(255, 0, 0));
+	for (i = 0; i < sizeof(Index) / sizeof(WORD); i += 3) {
+		DrawLine(Vertex[Index[i + 0]].pos.x, Vertex[Index[i + 0]].pos.y, Vertex[Index[i + 1]].pos.x, Vertex[Index[i + 1]].pos.y, GetColor(255, 0, 0));
+		DrawLine(Vertex[Index[i + 1]].pos.x, Vertex[Index[i + 1]].pos.y, Vertex[Index[i + 2]].pos.x, Vertex[Index[i + 2]].pos.y, GetColor(255, 0, 0));
+		DrawLine(Vertex[Index[i + 2]].pos.x, Vertex[Index[i + 2]].pos.y, Vertex[Index[i + 0]].pos.x, Vertex[Index[i + 0]].pos.y, GetColor(255, 0, 0));
 
-	//}
+	}
 
 	
 	InnerCircle(centerX_, centerY_, inRadius_, absorption_);
 	// 中心の盛り上がって見える部分を描画
 	DrawPrimitiveIndexed2D(Vertex, sizeof(Vertex) / sizeof(VERTEX2D), Index, sizeof(Index) / sizeof(WORD), DX_PRIMTYPE_TRIANGLELIST, ScreenHandle, FALSE);
 	//
-	//for (i = 0; i < sizeof(Index) / sizeof(WORD); i += 3) {
-	//	DrawLine(Vertex[Index[i + 0]].pos.x, Vertex[Index[i + 0]].pos.y, Vertex[Index[i + 1]].pos.x, Vertex[Index[i + 1]].pos.y, GetColor(255, 0, 0));
-	//	DrawLine(Vertex[Index[i + 1]].pos.x, Vertex[Index[i + 1]].pos.y, Vertex[Index[i + 2]].pos.x, Vertex[Index[i + 2]].pos.y, GetColor(255, 0, 0));
-	//	DrawLine(Vertex[Index[i + 2]].pos.x, Vertex[Index[i + 2]].pos.y, Vertex[Index[i + 0]].pos.x, Vertex[Index[i + 0]].pos.y, GetColor(255, 0, 0));
+	for (i = 0; i < sizeof(Index) / sizeof(WORD); i += 3) {
+		DrawLine(Vertex[Index[i + 0]].pos.x, Vertex[Index[i + 0]].pos.y, Vertex[Index[i + 1]].pos.x, Vertex[Index[i + 1]].pos.y, GetColor(255, 0, 0));
+		DrawLine(Vertex[Index[i + 1]].pos.x, Vertex[Index[i + 1]].pos.y, Vertex[Index[i + 2]].pos.x, Vertex[Index[i + 2]].pos.y, GetColor(255, 0, 0));
+		DrawLine(Vertex[Index[i + 2]].pos.x, Vertex[Index[i + 2]].pos.y, Vertex[Index[i + 0]].pos.x, Vertex[Index[i + 0]].pos.y, GetColor(255, 0, 0));
 
-	//}
+	}
 }
 
 void Distortion::InnerCircle(int centerX, int centerY, float inRadius, float absorption)

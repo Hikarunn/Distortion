@@ -1,4 +1,28 @@
-﻿  main.cpp
-C:\新しいフォルダー\Distortion\Project1\Project1\main.cpp(89,10): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\新しいフォルダー\Distortion\Project1\Project1\main.cpp(88,9): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+﻿  Distortion.cpp
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(26,95): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(34,105): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(72,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(72,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(72,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(72,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(73,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(73,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(73,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(73,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(74,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(74,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(74,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(74,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(84,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(84,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(84,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(84,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(85,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(85,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(85,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(85,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(86,120): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(86,92): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(86,64): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\新しいフォルダー\Distortion\Project1\Project1\Distortion.cpp(86,36): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
   Project1.vcxproj -> C:\新しいフォルダー\Distortion\Project1\x64\Debug\Project1.exe
